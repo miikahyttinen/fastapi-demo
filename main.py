@@ -11,7 +11,7 @@ app = FastAPI()
 
 @app.get("/")
 def index():
-    return {"data": "Application ran successfully - FastAPI"}
+    return {"data": "Application ran successfully and deployed with GH action - FastAPI"}
   
   
 if __name__ == "__main__":
